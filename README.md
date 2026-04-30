@@ -10,8 +10,8 @@ I am a dedicated Electronics and Telecommunication Engineering undergraduate at 
 | Degree / Level | Institution | Timeline |
 | :--- | :--- | :--- |
 | **B.Tech - Electronics and Telecommunication Engineering** | VIIT, Maharashtra | Aug 2023 – Present |
-| **12th (HSC)** | Bytco College, Maharashtra[cite: 1] | 2021 – 2023[cite: 1] |
-| **10th (SSC)** | St. Philomena High School, Maharashtra[cite: 1] | 2009 – 2021[cite: 1] |
+| **12th (HSC)** | Bytco College, Maharashtra | 2021 – 2023 |
+| **10th (SSC)** | St. Philomena High School, Maharashtra | 2009 – 2021 |
 
 ---
 
@@ -51,7 +51,7 @@ Designed and fabricated a custom PCB to serve as the "brain" for an autonomous r
 
 ## 🏆 Leadership & Experience
 
-* **Electronics Member** | **VIIT Robotics Club (VRC)** | Sept 2024 - Present
+**Electronics Member** | **VIIT Robotics Club (VRC)** | Sept 2024 - Present
   * Represented the college in the **DD Robocon Competition** (National Level).
   * Achieved a ranking within **AIR 15**.
 
@@ -63,7 +63,7 @@ Designed and fabricated a custom PCB to serve as the "brain" for an autonomous r
 
 ## 📜 Certifications
 
-* **Mechatronics** | NPTEL, IIT Roorkee | April 2025
+**Mechatronics** | NPTEL, IIT Roorkee | April 2025
   * Awarded "Elite" status.
 
 ## 🧗 Hobbies
