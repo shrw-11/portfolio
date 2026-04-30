@@ -5,7 +5,7 @@ plugins:
 title: Shrawan Kumbhar[cite: 1, 2]
 # This adds your profile picture and a short bio to the sidebar
 description: |
-  <img src="https://github.com/portrait.png" width="150" style="border-radius: 50%;"><br>
+  <img src="https://github.com/portrait.jpg" width="150" style="border-radius: 50%;"><br>
   Electronics and Telecommunication Engineering student at VIIT, Pune.
 
   <!-- Social Media Logos Redirects -->
