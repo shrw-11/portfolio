@@ -1,19 +1,12 @@
-remote_theme: pages-themes/minimal@v0.2.0
-plugins:
-  - jekyll-remote-theme
-
-title: Shrawan Kumbhar 
-show_downloads: false
-
 description: >
   <div style="text-align: center;">
     <img src="https://github.com/shrw-11.png" width="150" style="border-radius: 50%; display: block; margin: 0 auto;">
     <p style="margin-top: 10px;">Undergrad ENTC @ VIIT, Pune</p>
-    <div style="display: flex; justify-content: center; gap: 15px; margin-top: 10px;">
+    <div style="display: flex; justify-content: center; gap: 15px; margin-top: 10px; margin-bottom: 20px;">
       <a href="https://github.com/shrw-11" target="_blank">
         <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" width="25">
       </a>
-      <a href="https://www.linkedin.com/in/shrawankumbhar" target="_blank">
+      <a href="https://www.linkedin.com/in/shrawankumbhar/" target="_blank">
         <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" width="25">
       </a>
       <a href="https://scholar.google.com/citations?user=4b2j4LwAAAAJ&hl=en" target="_blank">
@@ -21,34 +14,29 @@ description: >
       </a>
     </div>
 
-    <!-- Certificate Slideshow -->
-    <div style="margin: 30px auto; width: 100%; max-width: 500px; height: 350px; position: relative; overflow: hidden; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+    <!-- Improved Certificate Slideshow -->
+    <div id="cert-container" style="position: relative; width: 100%; max-width: 400px; aspect-ratio: 4/3; margin: 20px auto; overflow: hidden; border-radius: 12px; border: 1px solid #eee; background: #fff;">
       <style>
-        @keyframes slideshow {
-          0% { opacity: 1; }
-          45% { opacity: 1; }
-          50% { opacity: 0; }
-          95% { opacity: 0; }
-          100% { opacity: 1; }
-        } 
-        .cert-slide {
+        @keyframes fadeTransition {
+          0%, 45% { opacity: 1; }
+          55%, 100% { opacity: 0; }
+        }
+        .slide {
           position: absolute;
           top: 0;
           left: 0;
           width: 100%;
           height: 100%;
           object-fit: contain;
-          background-color: #f9f9f9;
+          padding: 10px;
+          box-sizing: border-box;
         }
-        .cert1 { animation: slideshow 6s infinite; }
-        .cert2 { animation: slideshow 6s infinite reverse; }
+        #slide1 { animation: fadeTransition 6s infinite alternate; }
+        #slide2 { animation: fadeTransition 6s infinite alternate-reverse; }
       </style>
-      <!-- Replace the src URLs below with your actual hosted image links -->
-      <img class="cert-slide cert1" src="https://github.com/robocon.png" alt="DD-Robocon 2025 Certificate">
-      <img class="cert-slide cert2" src="https://github.com/nptel_mechatronics.png" alt="NPTEL Mechatronics Certificate">
+      
+      <!-- IMPORTANT: Change these paths to your actual file names on GitHub -->
+      <img id="slide1" class="slide" src="robocon.png" alt="Robocon Certificate">
+      <img id="slide2" class="slide" src="nptel_mechatronics.png" alt="NPTEL Certificate">
     </div>
   </div>
-
-google_scholar: https://scholar.google.com/citations?user=4b2j4LwAAAAJ&hl=en
-github_username: shrw-11
-linkedin_username: shrawankumbhar
